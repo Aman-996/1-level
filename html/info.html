@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小U后台管理系统——商品信息管理</title>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/info.css">
+</head>
+<body>
+    <div class="page">
+        <!-- 头部 -->
+        <header class="header clearfix">
+            <h1 class="logo fl"><img src="../image/logo.png" alt="logo"></h1>
+            <div class="menu fl">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logout fr">
+                <a href="#" class="users">
+                    <div class="user"><img src="../image/pic.png" alt="user"></div>
+                    您好，XXX
+                </a>
+                <a href="./login.html"><i class="iconfont">&#xe747;</i>注销</a>
+            </div>
+        </header>
+        <!-- 内容 -->
+        <article class="container">
+            <div class="cont_left">
+                <ul>
+                    <li class="active"><a href="./index.html">
+                        <i class="iconfont">&#xe613;</i>
+                        <em class="active">商品管理</em>
+                        </a>
+                        <ul class="Active">
+                            <li class="active1"><a href="./info.html"><i class="iconfont">&#xe746;</i><em>商品信息管理</em></a></li>
+                            <li><a href="./add.html"><i class="iconfont">&#xe629;</i><em>添加商品信息</em></a></li>
+                            <li><a href="#"><i class="iconfont">&#xe68a;</i><em>商品类型管理</em></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">
+                        <i class="iconfont">&#xe695;</i>
+                        <em class="active">订单管理</em>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="iconfont">&#xe746;</i><em>商品信息管理</em></a></li>
+                            <li><a href="#"><i class="iconfont">&#xe629;</i><em>添加商品信息</em></a></li>
+                            <li><a href="#"><i class="iconfont">&#xe68a;</i><em>商品类型管理</em></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">
+                        <i class="iconfont">&#xe6b4;</i>
+                        <em>用户管理</em>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="iconfont">&#xe746;</i><em>商品信息管理</em></a></li>
+                            <li><a href="#"><i class="iconfont">&#xe629;</i><em>添加商品信息</em></a></li>
+                            <li><a href="#"><i class="iconfont">&#xe68a;</i><em>商品类型管理</em></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">
+                        <i class="iconfont">&#xe612;</i>
+                        <em>管理员管理</em>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="iconfont">&#xe746;</i><em>商品信息管理</em></a></li>
+                            <li><a href="#"><i class="iconfont">&#xe629;</i><em>添加商品信息</em></a></li>
+                            <li><a href="#"><i class="iconfont">&#xe68a;</i><em>商品类型管理</em></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="cont_right">
+                <section>
+                    <header class="clearfix">
+                        <h2 class="fl">商品信息管理</h2>
+                    </header>
+                    <section>
+                        <nav class="clearfix">
+                            <div class="left fl clearfix">
+                                <a href="#" class="fl"><span></span>添加</a>
+                                <a href="#" class="fl"><span></span>修改</a>
+                                <a href="#" class="fl"><span></span>删除</a>
+                                <a href="#" class="fl"><span></span>统计</a>
+                            </div>
+                            <div class="right fr">
+                                <form action="#">
+                                    <input type="search" name="search" placeholder="请输入产品名称" id="search">
+                                    <input type="submit" name="find" value="查询">
+                                </form>
+                            </div>           
+                        </nav>         
+                    </section>
+                    <main>
+                        <form action="#" name="pro">
+                            <table>
+                                <tr class="active1">
+                                    <th class="inp1"><input type="checkbox" name="cp" checked></th>
+                                    <th>编号ID</th>
+                                    <th>商品名称</th>
+                                    <th>用户</th>
+                                    <th>发布时间</th>
+                                    <th>是否审核</th>
+                                    <th>操作</th>
+                                    <th>操作</th>
+                                </tr>
+                                <tr class="active2">
+                                    <td class="inp1"><input type="checkbox" name="cp"></td>
+                                    <td>2018-03-10</td>
+                                    <td>华为手机</td>
+                                    <td>admin</td>
+                                    <td>2019-10-03 9:00</td>
+                                    <td>已审核</td>
+                                    <td>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                    <td>
+                                        <p>已审核</p>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="inp1"><input type="checkbox" name="cp"></td>
+                                    <td>2018-03-10</td>
+                                    <td>华为手机</td>
+                                    <td>admin</td>
+                                    <td>2019-10-03 9:00</td>
+                                    <td>已审核</td>
+                                    <td>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                    <td>
+                                        <p>已审核</p>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                </tr>
+                                <tr class="active2">
+                                    <td class="inp1"><input type="checkbox" name="cp"></td>
+                                    <td>2018-03-10</td>
+                                    <td>华为手机</td>
+                                    <td>admin</td>
+                                    <td>2019-10-03 9:00</td>
+                                    <td>已审核</td>
+                                    <td>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                    <td>
+                                        <p>已审核</p>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="inp1"><input type="checkbox" name="cp"></td>
+                                    <td>2018-03-10</td>
+                                    <td>华为手机</td>
+                                    <td>admin</td>
+                                    <td>2019-10-03 9:00</td>
+                                    <td>已审核</td>
+                                    <td>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                    <td>
+                                        <p>已审核</p>
+                                        <a href="#">查看</a><a href="#">删除</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </main>
+                </section>
+                <footer class="clearfix">
+                    <p class="fl">共<span>1256</span>条记录，当前显示第<span> 2 </span>页</p>
+                    <ul class="fr clearfix">
+                    <li><a href="#">&lt;</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">…</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">&gt;</a></li>
+                    </ul>
+                </footer>
+                
+            </div>
+        </article> 
+    </div>
+</body>
+</html>

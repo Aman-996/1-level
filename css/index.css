@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 右边部分内容 */
+.cont_right>section>article>ul {
+    display: flex;
+}
+
+.cont_right>section>article>ul>li {
+    margin-top: 20px;
+    margin-right: .5%;
+    width: 25%;
+    border-radius: 7px;
+    background-color: #ec9720;
+}
+
+.cont_right>section>article>ul>li:last-child {
+    margin-right: 0;
+}
+
+.cont_right>section>article>ul>li>p {
+    padding-top: 3px;
+    margin-left: 13px;
+    font-size: 29px;
+    color: #fcffff;
+    line-height: 65px;
+}
+
+.cont_right>section>article>ul>li>span {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #fcffff;
+}
+
+.cont_right>section>article>ul>li>a {
+    display: block;
+    margin-top: 19px;
+
+    font-size: 12px;
+    color: #fcffff;
+    line-height: 30px;
+
+    border-radius: 7px;
+    background-color: #d4871b;
+    text-align: center;
+}

@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+.cont_right>section>form>table>tbody>tr {
+    line-height: 47px;
+    text-align: justify;
+}
+
+.cont_right>section>form>table>tbody>tr:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container>.cont_right>section>form>table>tbody>tr>th {
+    float: left;
+    width: 70px;
+    padding-right: 11px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.container>.cont_right>section>form>table>tbody>tr>td {
+    float: left;
+}
+
+.container>.cont_right>section>form>table>tbody>tr>th>i {
+    font-size: 6px;
+    color: #ef7215;
+}
+
+.container>.cont_right>section>form>table>tbody>tr>td>input[type=text] {
+    width: 345px;
+    height: 32px;
+    border: 1px solid #c3ab7d;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(3)>td {
+    margin-right: 14px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr>td>em {
+    margin-left: 20px;
+    font-size: 11px;
+    color: #7f7f7f;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(4)>th {
+    text-indent: 14px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(5)>td>input[type=text] {
+    margin-right: 16px;
+    width: 72px;
+    font-size: 12px;
+    color: #828282;
+    line-height: 32px;
+    background-color: #fff;
+    border: 1px solid #c3ab7d;
+    text-align: center;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(5)>td:nth-of-type(4) {
+    display: none;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(5)>td:nth-of-type(5) {
+    display: none;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(6)>td>textarea {
+    width: 525px;
+    height: 156px;
+    border: 1px solid #c3ab7d;
+    resize: both;
+}
+.container>.cont_right>section>form>table>tbody>tr:nth-child(7)>td>input {
+    font-size: 12px;
+    color: #fff;
+    line-height: 35px;
+    padding: 0 13px 0 18px;
+    border-radius: 2px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(7)>td>input[type=submit] {
+    margin-left: 85px;
+    margin-right: 17px;
+    background-color: #ed5d16;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(7)>td>input[type=reset] {
+    padding: 0 31px;
+    background-color: #838383;
+}
+
+/* 用于媒体查询 */
+.container>.cont_right>section>form>table>tbody>tr:nth-child(8) {
+    margin-top: 30px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(9),
+.container>.cont_right>section>form>table>tbody>tr:nth-child(10),
+.container>.cont_right>section>form>table>tbody>tr:nth-child(11) {
+    margin-top: 10px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(8)>th,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(9)>th,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(10)>th,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(11)>th {
+    line-height: 24px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(8)>td,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(9)>td,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(10)>td {
+    line-height: 34px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(8)>td>input,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(9)>td>input,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(10)>td>input {
+    width: 603px;
+    padding: 0;
+    font-size: 12px;
+    color: #757575;
+    text-indent: 10px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(8)>td>em,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(9)>td>em,
+.container>.cont_right>section>form>table>tbody>tr:nth-child(10)>td>em {
+    margin-left: 0;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(11)>td>textarea {
+    width: 603px;
+    height: 156px;
+    border: 1px solid #c3ab7d;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(11)>td>textarea[placeholder] {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #757575;
+    text-indent: 10px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(12) {
+    margin-top: 13px;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(12)>td>input[type= submit] {
+    font-size: 12px;
+    color: #fff;
+    line-height: 35px;
+    padding: 0 13px 0 18px;
+    border-radius: 2px;
+    margin-right: 17px;
+    line-height: 35px;
+    background-color: #ed5d16;
+}
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(12)>td>input[type=reset] {
+    font-size: 12px;
+    color: #fff;
+    line-height: 35px;
+    padding: 0 13px 0 18px;
+    border-radius: 2px;
+    line-height: 35px;
+    padding: 0 28px;
+    background-color: #838383;
+}
+
+
+
+
+.container>.cont_right>section>form>table>tbody>tr:nth-child(8),
+.container>.cont_right>section>form>table>tbody>tr:nth-child(9),
+.container>.cont_right>section>form>table>tbody>tr:nth-child(10),
+.container>.cont_right>section>form>table>tbody>tr:nth-child(11),
+.container>.cont_right>section>form>table>tbody>tr:nth-child(12) {
+    display: none;
+}
+
+
+
+
+/* 媒体查询 */
+
+/* pad端 */
+@media screen and (max-width:1023px) {
+    /* 添加商品页——右边表单 */
+    .container>.cont_right>section>form>table>tbody>tr {
+        display: flex;
+        flex-direction: column;
+    }   
+    /* 添加商品页——表单：隐藏 */
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(1),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(2),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(3),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(4),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(5),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(6),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(7) {
+        display: none;
+    }
+
+    /* 添加商品页——表单：显示 */
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(8),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(9),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(10),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(11),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(12) {
+        display: flex;
+    }
+}
+
+
+/* 手机端 */
+@media screen and (max-width:767px) {
+    /* 添加商品页——右边表单 */
+    .container>.cont_right>section>form>table>tbody>tr {
+        display: flex;
+        flex-direction: column;
+    }   
+    
+      /* 添加商品页——表单：隐藏 */
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(2),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(3),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(5),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(6){
+        display: none;
+    }
+    /* 添加商品页——表单：显示 */
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(8),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(9),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(10),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(11),
+    .container>.cont_right>section>form>table>tbody>tr:nth-child(12) {
+        display: flex;
+    }
+}

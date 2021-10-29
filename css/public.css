@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+html,body,.page {
+    width: 100%;
+    height: 100%;
+}
+/* header */
+.header {
+    height: 60px;
+    background-color: #f26b11;
+}
+
+.header .logo {
+    margin: 21px 0 0 24px;
+}
+
+/* 手机端 */
+.header .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 9px;
+    margin-left: 11px;
+    padding: 10px;
+    width: 20px;
+    height: 15px;
+    border: 1px solid #f69b5f;
+    border-radius: 5px;
+
+    display: none;
+}
+
+.header .menu span {
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+
+.header .logout {
+    margin-top: 11px;
+    margin-right: 21px;
+}
+
+
+.header .logout a {
+    font-size: 12px;
+    color: #fff;
+}
+
+.header .logout a .user {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.header .logout a .user img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header .logout a i {
+    margin-left: 21px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+/* 内容 */
+/* 左部分 */
+.container {
+    display: flex;
+    height: calc(100% - 60px);
+}
+
+.container .cont_left {
+    width: 220px;
+
+    border-top: 1px solid #f4f6f3;
+    background-color: #fff;
+}
+
+.container>.cont_left>ul {
+    margin: 33px 0 0 61px;
+}
+
+.container>.cont_left>ul:nth-child(1)>li>a>i {
+    font-size: 20px;
+    color: #3d342d;
+}
+
+.container>.cont_left>ul:nth-child(1)>li>a>em {
+    font-size: 16px;
+    color: #3d342d;
+    line-height: 40px;
+}
+
+.container>.cont_left>ul>.active>a>.active {
+    color: #f26b11;
+    font-weight: bold;
+}
+
+/* 商品管理内容 */
+.container>.cont_left>ul ul {
+    margin-bottom: 10px;
+    display: none;
+}
+
+.container>.cont_left>ul .Active {
+    display: block;
+}
+
+
+.container>.cont_left>ul ul>li>a {
+    padding-left: 10px;
+
+    font-size: 14px;
+    color: #2f3437;
+    line-height: 42px;
+}
+
+.container>.cont_left>ul ul>.active1 {
+    background-color: #ec9921;
+}
+
+.container>.cont_left>ul ul>.active1>a {
+    color: #fff;
+}
+
+/* 右部分 */
+/* 标题部分 */
+.container .cont_right {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 27px;
+    background-color: #f5f5f5;
+}
+
+.cont_right>section:nth-of-type(1) {
+    margin-bottom: 40px;
+}
+
+.cont_right>section>header {
+    position: relative;
+    height: 60px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.cont_right>section>header>h2{
+    margin-left: 16px;
+    font-size: 14px;
+    color: #382d2b;
+    line-height: 60px;
+}
+
+.cont_right>section>header>h2::before {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+
+    width: 5px;
+    height: 20px;
+    background-color: #f16a0e;
+}
+
+.cont_right>section>header>a {
+    padding-right: 17px;
+    font-size: 12px;
+    color: #253535;
+    line-height: 60px;
+}
+
+.cont_right>section>header>a:after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+
+    width: 0px;
+    height: 0px;
+    border-top: 4px solid #253535;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+
+/* 媒体查询 */
+
+/* pad端 */
+@media screen and (max-width:1023px) {
+    .container>.cont_right>section>article>ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container>.cont_right>section>article>ul>li {
+        width: calc(50% - .5%);
+    }
+    .container>.cont_right>section>article>ul>li:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+/* 手机端 */
+@media screen and (max-width:767px) {
+    /* 头部信息 */
+    .header .logo {
+        display: none;
+    }
+    .header .menu {
+        display: flex;
+    }
+    /* 左边菜单栏 */
+    .container .cont_left {
+        width: 100%;
+        display: none;
+    }
+    /* 首页——右边内容框 */
+    .container>.cont_right>section>article>ul {
+        flex-direction: column;
+    }
+    .container>.cont_right>section>article>ul>li {
+        width: 100%;
+    }
+}
